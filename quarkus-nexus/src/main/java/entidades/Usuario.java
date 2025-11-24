@@ -22,6 +22,7 @@ public class Usuario extends PanacheEntityBase{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id;
     public String nomeUsuario;
+    public String emailUsuario;
     public String senhaUsuario;
     public LocalDate data_cadastro;
 
